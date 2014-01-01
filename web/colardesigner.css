@@ -1,0 +1,111 @@
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+.container{
+  overflow-x: scroll;
+  padding: 10px;
+  width: 800px;
+  border: 2px solid gray;
+}
+
+.colar{
+  margin: 20px;
+  width: 1000px;
+  border: 2px solid black;
+  background-image: url(./res/leather.jpg);
+  background-size: 1000px 100%;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.row{
+/*   background-color: #ccc; */
+/*   border: 1px solid #666; */
+
+  height: 20px;
+
+  /*margin-right: 5px;
+  margin-left: 5px;*/
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+
+}
+
+.invisible{
+  visibility: hidden;
+}
+
+.withBorder{
+    border: 1px solid #c6fccd;
+}
+
+.invisBorder
+{
+  border: 1px solid transparent;
+}
+
+.selector{
+  margin-left: 10px;
+  margin-top: 3px;
+  float: left;
+
+  width: 12px;
+  height: 12px;
+  position:relative;
+
+}
+
+.selector.free{
+  /*background-color: #C6FCCD;*/
+}
+
+.selector.occupied{
+  background-color: #FCC6CE;
+  border: 1px solid #FCC6CE;
+}
+
+.selector.over{
+   border: 1px dashed #000;
+   background-color: lightgreen;
+}
+
+.notselectable{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.centered{
+  left:50%;
+   top:50%;
+   -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   position:absolute;
+}
+
+.bin{
+  text-align: center;
+vertical-align: middle;
+line-height: 100px;       /* the same as your div height */
+  width: 200px;
+  height: 100px;
+  background-color: #E8E8E8;
+}
+
+.draggable{
+  
+}
+.dropable{
+  
+}

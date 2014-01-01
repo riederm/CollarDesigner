@@ -1,0 +1,6 @@
+name: ColarDesigner
+description: A sample web application
+dependencies:
+  angular: any
+  browser: any
+  html5_dnd: any
